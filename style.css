@@ -1,0 +1,151 @@
+/*
+Theme Name: DEG Theme
+Author: Tobias Jung
+*/
+/*
+Navbar class is:       .navigation
+*/
+div.headimg > img {
+  height: 30%;
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+div.headimg {
+  height: 500px;
+  background-image: url("http://localhost/wp-content/uploads/2020/04/Bildereihe.png");
+}
+
+ul.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  text-align: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  background-color: #027368;
+}
+
+ul.menu > li > a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+ul.menu > li > a:hover {
+  background-color: #025951;
+}
+
+div.container {
+  background-color: #A7C8F2;
+  padding: 50px;
+  padding-top: 30px;
+  margin-bottom: 50px;
+  border: 2px hidden #F25116;
+  border-radius: 25px;
+}
+
+div.container > p {
+  margin-top: 40px;
+}
+
+div.container > h1 {
+  padding: 20px;
+}
+
+div.container > h1 h2 {
+  padding: 20px;
+}
+
+body {
+  /* Background pattern from Toptal Subtle Patterns */
+  background-image: url("http://localhost/wp-content/uploads/2020/04/green_cup.png");
+}
+
+.widget {
+  list-style: none;
+  background-color: #A7C8F2;
+  margin-top: 40px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 2px hidden #F25116;
+  border-radius: 25px;
+}
+
+.widget > ul {
+  list-style: square;
+}
+
+/* Color Theme Swatches in Hex */
+.Fluorescing-coral-reef-split-shot-with-boat-1-hex {
+  color: #A7C8F2;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-2-hex {
+  color: #048ABF;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-3-hex {
+  color: #027368;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-4-hex {
+  color: #025951;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-5-hex {
+  color: #F25116;
+}
+
+/* Color Theme Swatches in RGBA */
+.Fluorescing-coral-reef-split-shot-with-boat-1-rgba {
+  color: #a7c7f2;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-2-rgba {
+  color: #038abf;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-3-rgba {
+  color: #027267;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-4-rgba {
+  color: #015950;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-5-rgba {
+  color: #f25015;
+}
+
+/* Color Theme Swatches in HSLA */
+.Fluorescing-coral-reef-split-shot-with-boat-1-hsla {
+  color: #a6c8f2;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-2-hsla {
+  color: #048cbe;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-3-hsla {
+  color: #026e63;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-4-hsla {
+  color: #02554d;
+}
+
+.Fluorescing-coral-reef-split-shot-with-boat-5-hsla {
+  color: #f14e13;
+}
+/*# sourceMappingURL=style.css.map */

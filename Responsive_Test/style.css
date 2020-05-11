@@ -1,0 +1,228 @@
+/* Color Theme Swatches in Hex */
+/* Color Theme Swatches in RGBA */
+/* Color Theme Swatches in HSLA */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: #D9CEAD;
+  position: relative;
+}
+
+.content {
+  background-color: #77A695;
+}
+
+.widget {
+  background-color: #BF8B5E;
+}
+
+.footer {
+  background-color: #273D40;
+}
+
+.nav > ul > li > div > a {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+}
+
+.nav > ul {
+  list-style: none;
+}
+
+.footer-items > ul > li > a {
+  font-family: 'Kanit', sans-serif;
+  color: white;
+}
+
+.nav > ul > li > div > a:hover {
+  color: #D9CEAD;
+}
+
+.footer-items > ul {
+  list-style: none;
+}
+
+.flexroot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (max-width: 360px) {
+  .nav {
+    background-color: #D9CEAD;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .nav .text-area {
+    margin: 20px;
+  }
+  .nav ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav ul li {
+    padding: 10px;
+    padding-left: 0;
+    margin: auto;
+  }
+  .quote {
+    display: none;
+  }
+  .content {
+    background-color: #77A695;
+    padding: 30px;
+    padding-top: 10px;
+    font-size: 12px;
+  }
+  .content .widget {
+    background-color: #BF8B5E;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  .footer {
+    background-color: #273D40;
+  }
+  .footer-items ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 768px) {
+  ul {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  ul li {
+    padding: 10px;
+    padding-left: 0;
+    margin: auto;
+  }
+  .header {
+    max-width: 768px;
+    min-height: 150px;
+    background-size: 100%;
+    background-image: url(/pictures/headerBackgroundMedium.png);
+  }
+  .header .quote {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 20px;
+  }
+  .header .quote p {
+    font-family: 'Oswald', sans-serif;
+    color: #BF8B5E;
+    font-size: 15px;
+  }
+  .nav {
+    width: 100%;
+    padding-top: 10px;
+  }
+  .text-area {
+    margin: 20px;
+  }
+  .widget {
+    padding: 30px;
+  }
+  .footer-items > ul > li {
+    padding-top: 10px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1366px) {
+  .header {
+    max-width: 1366px;
+    min-height: 400px;
+    background-size: 100%;
+    background-image: url(/pictures/headerBackgroundMedium.png);
+  }
+  .header .quote {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 40px;
+    margin-top: 100px;
+  }
+  .header .quote p {
+    font-family: 'Oswald', sans-serif;
+    color: #BF8B5E;
+    font-size: 20px;
+  }
+  .content {
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+  }
+  .content .widget {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .nav > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav > ul li {
+    padding: 30px;
+  }
+}
+
+@media (min-width: 1366px) and (max-width: 1920px) {
+  .header {
+    max-width: 1920px;
+    min-height: 400px;
+    background-size: 100%;
+    background-image: url(/pictures/headerBackgroundMedium.png);
+  }
+  .header .quote {
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 40px;
+    margin-top: 100px;
+  }
+  .header .quote p {
+    font-family: 'Oswald', sans-serif;
+    color: #BF8B5E;
+    font-size: 20px;
+  }
+  .content {
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+  }
+  .content .widget {
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .nav > ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .nav > ul li {
+    padding: 30px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

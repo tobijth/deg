@@ -1,0 +1,316 @@
+//Aus CC Libary extrahiert, mit Hintergrundbild dort erstellt
+/* Color Theme Swatches in Hex */
+$color-theme_typewriter-801921-1-hex: #273D40;
+$color-theme_typewriter-801921-2-hex: #3E5954;
+$color-theme_typewriter-801921-3-hex: #77A695;
+$color-theme_typewriter-801921-4-hex: #D9CEAD;
+$color-theme_typewriter-801921-5-hex: #BF8B5E;
+
+/* Color Theme Swatches in RGBA */
+$color-theme_typewriter-801921-1-rgba: rgba(39,61,64, 1);
+$color-theme_typewriter-801921-2-rgba: rgba(62,89,84, 1);
+$color-theme_typewriter-801921-3-rgba: rgba(119,166,149, 1);
+$color-theme_typewriter-801921-4-rgba: rgba(217,206,173, 1);
+$color-theme_typewriter-801921-5-rgba: rgba(191,139,94, 1);
+
+/* Color Theme Swatches in HSLA */
+$color-theme_typewriter-801921-1-hsla: hsla(187, 24, 20, 1);
+$color-theme_typewriter-801921-2-hsla: hsla(168, 17, 29, 1);
+$color-theme_typewriter-801921-3-hsla: hsla(158, 20, 55, 1);
+$color-theme_typewriter-801921-4-hsla: hsla(45, 36, 76, 1);
+$color-theme_typewriter-801921-5-hsla: hsla(27, 43, 55, 1);
+
+//Breakpoints and Query
+$breakpoint-phone: 360px;
+$breakpoint-tablet: 768px;
+$breakpoint-desktop: 1366px;
+$breakpoint-largeDesktop: 1920px;
+
+//General
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav{
+  background-color: #D9CEAD;
+  position: relative;
+}
+
+.content{
+  background-color: #77A695;
+}
+
+.widget{
+  background-color: #BF8B5E;
+}
+
+.footer{
+  background-color: #273D40;
+
+}
+
+.nav>ul>li>div>a{
+
+  font-family: 'Kanit', sans-serif;
+  color: white;
+
+}
+
+.nav>ul{
+  list-style: none;
+  
+}
+
+.footer-items>ul>li>a{
+
+  font-family: 'Kanit', sans-serif;
+  color: white;
+  
+
+}
+
+.nav>ul>li>div>a:hover{
+  color: #D9CEAD;
+}
+
+.footer-items>ul{
+  list-style: none;
+}
+
+
+
+.flexroot{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+//Phone
+@media (max-width: $breakpoint-phone){
+ .nav{
+   background-color: #D9CEAD;
+
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   
+  .text-area{
+    margin: 20px;
+  }
+
+
+
+   ul{
+     list-style: none;
+     display: flex;
+     li{
+       padding: 10px;
+       padding-left: 0;
+       margin: auto;
+     }
+   }
+ }
+
+ .quote{
+   display: none;
+ }
+
+ .content{
+   background-color: #77A695;
+   padding: 30px;
+   padding-top: 10px;
+   font-size: 12px;
+
+   .widget{
+     background-color: #BF8B5E;
+     width: 100%;
+     height: auto;
+     padding: 10px;
+     border-radius: 10px;
+     margin-top: 20px;
+    
+   }
+ }
+
+.footer{
+  background-color: #273D40;
+
+}
+
+.footer-items{
+  ul{
+    list-style: none;
+    display: flex;
+  }
+}
+
+
+
+
+}
+
+
+
+//Tablet
+@media (min-width: $breakpoint-phone) and (max-width: $breakpoint-tablet){
+  ul{
+    list-style: none;
+    display: flex;
+    li{
+      padding: 10px;
+      padding-left: 0;
+      margin: auto;
+    }
+  }
+
+  
+  .header{
+    max-width: 768px;
+    min-height: 150px;
+    background-size: 100%;
+    
+    background-image: url(/pictures/headerBackgroundMedium.png);
+
+    .quote{
+      margin-left: 30%;
+      margin-right: 30%;
+      padding-top: 20px;
+      
+
+      p{
+        font-family: 'Oswald', sans-serif;
+        color: #BF8B5E;
+        font-size: 15px;
+     
+      }
+    }
+  }
+ 
+  
+  
+  
+  .nav{
+    width: 100%;
+    padding-top: 10px;
+  }
+.text-area{
+  margin: 20px;
+  
+}
+
+.widget{
+  padding: 30px;
+}
+
+.footer-items>ul>li{
+  padding-top: 10px;
+}
+
+
+}
+
+//Desktop
+@media (min-width: $breakpoint-tablet) and (max-width: $breakpoint-desktop){
+  .header{
+    max-width: 1366px;
+    min-height: 400px;
+    background-size: 100%;
+    
+    background-image: url(/pictures/headerBackgroundMedium.png);
+
+    .quote{
+      margin-left: 30%;
+      margin-right: 30%;
+      padding-top: 40px;
+      margin-top: 100px;
+      p{
+        font-family: 'Oswald', sans-serif;
+        color: #BF8B5E;
+        font-size: 20px;
+      }
+    }
+  }
+
+
+  .content{
+  
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    .widget{
+      margin-top: 20px;
+      border-radius: 10px;
+      padding: 20px;
+    }
+  }
+
+  .nav>ul{
+    display: flex;
+    li{
+      padding: 30px;
+    }
+  }
+  
+  
+
+
+
+}
+
+
+//Large Desktop
+@media (min-width: $breakpoint-desktop) and (max-width: $breakpoint-largeDesktop){
+  .header{
+    max-width: 1920px;
+    min-height: 400px;
+    background-size: 100%;
+    
+    background-image: url(/pictures/headerBackgroundMedium.png);
+
+    .quote{
+      margin-left: 30%;
+      margin-right: 30%;
+      padding-top: 40px;
+      margin-top: 100px;
+      p{
+        font-family: 'Oswald', sans-serif;
+        color: #BF8B5E;
+        font-size: 20px;
+      }
+    }
+    
+  }
+
+
+  .content{
+  
+    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 12px;
+    .widget{
+      margin-top: 20px;
+      border-radius: 10px;
+      padding: 20px;
+    }
+  }
+
+  .nav>ul{
+    display: flex;
+    li{
+      padding: 30px;
+    }
+  }
+  
+  
+
+
+}
+
